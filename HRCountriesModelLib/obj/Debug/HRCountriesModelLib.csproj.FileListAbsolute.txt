@@ -1,0 +1,1 @@
+C:\Users\A647998\Desktop\CodeGIT\HRCountriesServices\HRCountriesServicesSolution\HRCountriesModelLib\obj\Debug\HRCountriesModelLib.csprojResolveAssemblyReference.cache
