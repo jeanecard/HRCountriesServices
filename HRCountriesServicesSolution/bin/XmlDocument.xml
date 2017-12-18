@@ -1,0 +1,3225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HRCountriesServicesSolution</name>
+    </assembly>
+    <members>
+        <member name="T:HRCountriesServicesSolution.BundleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            
+            </summary>
+            <param name="bundles"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.FilterConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.RouteConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.App_Start.StructuremapMvc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.App_Start.StructuremapMvc.StructureMapDependencyScope">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.App_Start.StructuremapMvc.End">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.App_Start.StructuremapMvc.Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.App_Start.StructuremapWebApi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.App_Start.StructuremapWebApi.Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.WebApiConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Lancement des factories et autres services, configurations nécessaires au Web service
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ApiDescriptionExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.ApiDescription"/>. E.g. "Get-Values-id_name" instead of "GetValues/{id}?name={name}"
+            </summary>
+            <param name="description">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The ID as a string.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfig">
+            <summary>
+            Use this class to customize the Help Page.
+            For example you can set a custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> to supply the documentation
+            or you can provide the samples for the requests/responses.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController">
+            <summary>
+            The controller that will handle requests for the help page.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.#ctor(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.Api(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="apiId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Controllers.HelpController.ResourceModel(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="modelName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageAreaRegistration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageAreaRegistration.AreaName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea(System.Web.Mvc.AreaRegistrationContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetDocumentationProvider(System.Web.Http.HttpConfiguration,System.Web.Http.Description.IDocumentationProvider)">
+            <summary>
+            Sets the documentation provider for help page.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="documentationProvider">The documentation provider.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleObjects(System.Web.Http.HttpConfiguration,System.Collections.Generic.IDictionary{System.Type,System.Object})">
+            <summary>
+            Sets the objects that will be used by the formatters to produce sample requests/responses.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleObjects">The sample objects.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type and action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleRequest(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample request directly for the specified media type and action with parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample request.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String)">
+            <summary>
+            Sets the sample request directly for the specified media type of the action.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleResponse(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.String,System.String,System.String[])">
+            <summary>
+            Sets the sample response directly for the specified media type of the action with specific parameters.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample response.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForMediaType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Sets the sample directly for all actions with the specified media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetSampleForType(System.Web.Http.HttpConfiguration,System.Object,System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Sets the sample directly for all actions with the specified type and media type.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sample">The sample.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The parameter type or return type of an action.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualRequestType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate request samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String)">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetActualResponseType(System.Web.Http.HttpConfiguration,System.Type,System.String,System.String,System.String[])">
+            <summary>
+            Specifies the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> returned as part of the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            The help page will use this information to produce more accurate response samples.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="type">The type.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <returns>The help page sample generator.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.SetHelpPageSampleGenerator(System.Web.Http.HttpConfiguration,HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator)">
+            <summary>
+            Sets the help page sample generator.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="sampleGenerator">The help page sample generator.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.GetModelDescriptionGenerator(System.Web.Http.HttpConfiguration)">
+            <summary>
+            Gets the model description generator.
+            </summary>
+            <param name="config">The configuration.</param>
+            <returns>The <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator"/></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageConfigurationExtensions.GetHelpPageApiModel(System.Web.Http.HttpConfiguration,System.String)">
+            <summary>
+            Gets the model that represents an API displayed on the help page. The model is initialized on the first call and cached for subsequent calls.
+            </summary>
+            <param name="config">The <see cref="T:System.Web.Http.HttpConfiguration"/>.</param>
+            <param name="apiDescriptionId">The <see cref="T:System.Web.Http.Description.ApiDescription"/> ID.</param>
+            <returns>
+            An <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel"/>
+            </returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.CollectionModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.ElementDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.Properties">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.Values">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumValueDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Documentation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.KeyModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.ValueModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription.Documentation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription.ModelType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator">
+            <summary>
+            Generates model descriptions for given types.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.#ctor(System.Web.Http.HttpConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GeneratedModels">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetOrCreateModelDescription(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="modelType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelNameAttribute">
+            <summary>
+            Use this attribute to change the name of the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription"/> generated for a type.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterAnnotation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.AnnotationAttribute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.Documentation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription.Annotations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription.Documentation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription.TypeDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel">
+            <summary>
+            The model that represents an API displayed on the help page.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel"/> class.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription">
+            <summary>
+            Gets or sets the <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription"/> that describes the API.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.UriParameters">
+            <summary>
+            Gets or sets the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ParameterDescription"/> collection that describes the URI parameters for the API.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.RequestDocumentation">
+            <summary>
+            Gets or sets the documentation for the request.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.RequestModelDescription">
+            <summary>
+            Gets or sets the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the request body.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.RequestBodyParameters">
+            <summary>
+            Gets the request body parameter descriptions.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.ResourceDescription">
+            <summary>
+            Gets or sets the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ModelDescriptions.ModelDescription"/> that describes the resource.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.ResourceProperties">
+            <summary>
+            Gets the resource property descriptions.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests">
+            <summary>
+            Gets the sample requests associated with the API.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses">
+            <summary>
+            Gets the sample responses associated with the API.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages">
+            <summary>
+            Gets the error messages associated with this model.
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator">
+            <summary>
+            This class will generate the samples for the help page.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator"/> class.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes">
+            <summary>
+            Gets CLR types that are used as the content of <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/>.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples">
+            <summary>
+            Gets the objects that are used directly as samples for certain actions.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects">
+            <summary>
+            Gets the objects that are serialized as samples by the supported formatters.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories">
+            <summary>
+            Gets factories for the objects that the supported formatters will serialize as samples. Processed in order,
+            stopping when the factory successfully returns a non-<see langref="null"/> object.
+            </summary>
+            <remarks>
+            Collection includes just <see cref="M:HRCountriesServicesSolution.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)"/> initially. Use
+            <code>SampleObjectFactories.Insert(0, func)</code> to provide an override and
+            <code>SampleObjectFactories.Add(func)</code> to provide a fallback.</remarks>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the request body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Gets the response body samples for a given <see cref="T:System.Web.Http.Description.ApiDescription"/>.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.GetSample(System.Web.Http.Description.ApiDescription,HRCountriesServicesSolution.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Gets the request or response body samples.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The samples keyed by media type.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Type,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,HRCountriesServicesSolution.Areas.HelpPage.SampleDirection)">
+            <summary>
+            Search for samples that are provided directly through <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples"/>.
+            </summary>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="type">The CLR type.</param>
+            <param name="formatter">The formatter.</param>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or for a response.</param>
+            <returns>The sample that matches the parameters.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)">
+            <summary>
+            Gets the sample object that will be serialized by the formatters. 
+            First, it will look at the <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects"/>. If no sample object is found, it will try to create
+            one using <see cref="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator,System.Type)"/> (which wraps an <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ObjectGenerator"/>) and other
+            factories in <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.SampleObjectFactories"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>The sample object.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.ResolveHttpRequestMessageType(System.Web.Http.Description.ApiDescription)">
+            <summary>
+            Resolves the actual type of <see cref="T:System.Net.Http.ObjectContent`1"/> passed to the <see cref="T:System.Net.Http.HttpRequestMessage"/> in an action.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <returns>The type.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},HRCountriesServicesSolution.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection{System.Net.Http.Formatting.MediaTypeFormatter}@)">
+            <summary>
+            Resolves the type of the action parameter or return value when <see cref="T:System.Net.Http.HttpRequestMessage"/> or <see cref="T:System.Net.Http.HttpResponseMessage"/> is used.
+            </summary>
+            <param name="api">The <see cref="T:System.Web.Http.Description.ApiDescription"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+            <param name="sampleDirection">The value indicating whether the sample is for a request or a response.</param>
+            <param name="formatters">The formatters.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Writes the sample object using formatter.
+            </summary>
+            <param name="formatter">The formatter.</param>
+            <param name="value">The value.</param>
+            <param name="type">The type.</param>
+            <param name="mediaType">Type of the media.</param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey">
+            <summary>
+            This is used to identify the place where the sample should be applied.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Creates a new <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey"/> based on media type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,System.Type)">
+            <summary>
+            Creates a new <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey"/> based on media type and CLR type.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="type">The CLR type.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.#ctor(HRCountriesServicesSolution.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey"/> based on <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="sampleDirection">The <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.#ctor(System.Net.Http.Headers.MediaTypeHeaderValue,HRCountriesServicesSolution.Areas.HelpPage.SampleDirection,System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Creates a new <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey"/> based on media type, <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>, controller name, action name and parameter names.
+            </summary>
+            <param name="mediaType">The media type.</param>
+            <param name="sampleDirection">The <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.</param>
+            <param name="controllerName">Name of the controller.</param>
+            <param name="actionName">Name of the action.</param>
+            <param name="parameterNames">The parameter names.</param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.ControllerName">
+            <summary>
+            Gets the name of the controller.
+            </summary>
+            <value>
+            The name of the controller.
+            </value>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.ActionName">
+            <summary>
+            Gets the name of the action.
+            </summary>
+            <value>
+            The name of the action.
+            </value>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.MediaType">
+            <summary>
+            Gets the media type.
+            </summary>
+            <value>
+            The media type.
+            </value>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.ParameterNames">
+            <summary>
+            Gets the parameter names.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.ParameterType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection">
+            <summary>
+            Gets the <see cref="P:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.SampleDirection"/>.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.HelpPageSampleKey.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ImageSample">
+            <summary>
+            This represents an image sample on the help page. There's a display template named ImageSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ImageSample.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.ImageSample"/> class.
+            </summary>
+            <param name="src">The URL of an image.</param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.ImageSample.Src">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ImageSample.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ImageSample.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ImageSample.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample">
+            <summary>
+            This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="errorMessage"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.InvalidSample.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.ObjectGenerator">
+            <summary>
+            This class will create an object of a given type and populate it with sample data.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.ObjectGenerator.GenerateObject(System.Type)">
+            <summary>
+            Generates an object for a given type. The type needs to be public, have a public default constructor and settable public properties/fields. Currently it supports the following types:
+            Simple types: <see cref="T:System.Int32"/>, <see cref="T:System.String"/>, <see cref="T:System.Enum"/>, <see cref="T:System.DateTime"/>, <see cref="T:System.Uri"/>, etc.
+            Complex types: POCO types.
+            Nullables: <see cref="T:System.Nullable`1"/>.
+            Arrays: arrays of simple types or complex types.
+            Key value pairs: <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            Tuples: <see cref="T:System.Tuple`1"/>, <see cref="T:System.Tuple`2"/>, etc
+            Dictionaries: <see cref="T:System.Collections.Generic.IDictionary`2"/> or anything deriving from <see cref="T:System.Collections.Generic.IDictionary`2"/>.
+            Collections: <see cref="T:System.Collections.Generic.IList`1"/>, <see cref="T:System.Collections.Generic.IEnumerable`1"/>, <see cref="T:System.Collections.Generic.ICollection`1"/>, <see cref="T:System.Collections.IList"/>, <see cref="T:System.Collections.IEnumerable"/>, <see cref="T:System.Collections.ICollection"/> or anything deriving from <see cref="T:System.Collections.Generic.ICollection`1"/> or <see cref="T:System.Collections.IList"/>.
+            Queryables: <see cref="T:System.Linq.IQueryable"/>, <see cref="T:System.Linq.IQueryable`1"/>.
+            </summary>
+            <param name="type">The type.</param>
+            <returns>An object of the given type.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.SampleDirection">
+            <summary>
+            Indicates whether the sample is used for request or response
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Areas.HelpPage.SampleDirection.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Areas.HelpPage.SampleDirection.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.TextSample">
+            <summary>
+            This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.TextSample.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Areas.HelpPage.TextSample.Text">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.TextSample.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.TextSample.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.TextSample.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider">
+            <summary>
+            A custom <see cref="T:System.Web.Http.Description.IDocumentationProvider"/> that reads the API documentation from an XML documentation file.
+            </summary>
+            
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider"/> class.
+            </summary>
+            <param name="documentPath">The physical path to XML document.</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpControllerDescriptor)">
+            <summary>
+            
+            </summary>
+            <param name="controllerDescriptor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)">
+            <summary>
+            
+            </summary>
+            <param name="actionDescriptor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)">
+            <summary>
+            
+            </summary>
+            <param name="parameterDescriptor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)">
+            <summary>
+            
+            </summary>
+            <param name="actionDescriptor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)">
+            <summary>
+            
+            </summary>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.GeonameRestRequestGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.GeonameRestRequestGenerator.Generate(System.String,System.String,System.String)">
+            <summary>
+            Get the RestRequest to query GeoName Service
+            No unit test as implementation is trivial
+            </summary>
+            <param name="placenameToLookup">placeName to lookup</param>
+            <param name="countryToLookup">Country to lookup</param>
+            <param name="userNameToUse">User name to use to query GeoName Service.</param>
+            <returns>The expected RestRequest</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.GeonameRestResponseAnalyser">
+            <summary>
+            GeoName Response Analyser Implementation based on Levenstein algortihm
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.GeonameRestResponseAnalyser.GetBestFittingPlaceName(System.String,System.Collections.Generic.List{HRCountriesServicesSolution.Models.Geoname})">
+            <summary>
+            Get the Best approching placeName in the world
+            </summary>
+            <param name="placeName">Place name to search</param>
+            <param name="inGeonames">A List of GeoName object</param>
+            <returns>The most approching GeoName null if can not be found</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IGeonameRestRequestGenerator">
+            <summary>
+            GeonameRestRequestGenerator Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IGeonameRestRequestGenerator.Generate(System.String,System.String,System.String)">
+            <summary>
+            Get the RestRequest to query GeoName Service
+            </summary>
+            <param name="placenameToLookup">placeName to lookup</param>
+            <param name="countryToLookup">Country to lookup</param>
+            <param name="userNameToUse">User name to use to query GeoName Service.</param>
+            <returns>The expected RestRequest</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IGeonameRestResponseAnalyser">
+            <summary>
+            GeoName Response Analyser Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IGeonameRestResponseAnalyser.GetBestFittingPlaceName(System.String,System.Collections.Generic.List{HRCountriesServicesSolution.Models.Geoname})">
+            <summary>
+            Get the Best approching placeName in the world
+            </summary>
+            <param name="placeName">Place name to search</param>
+            <param name="inGeonames">A List of GeoName object</param>
+            <returns>The most approching GeoName null if can not be found</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.LevenshteinDistance">
+            <summary>
+            An implementation of Leveinstein Algorithm.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.LevenshteinDistance.Compute(System.String,System.String)">
+            <summary>
+            Compute the distance between two strings.
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.CountriesIterationService">
+            <summary>
+            CountriesIterationService interface implementation
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesIterationService.#ctor(HRCountriesServicesSolution.Business.ICountriesService,HRCountriesServicesSolution.DAL.ICountriesIterationRepository)">
+            <summary>
+            Constructor dependancy injection
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesIterationService.GetCountrieIterationAsync(System.String)">
+            <summary>
+            Get a specific CountriesIteration.
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <param name="Id">ID is server given from GetCountriesIteration or String.empty for first iteration.</param>
+            <returns>A countriesIteration containing the next CountriesIteration ID if exists.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesIterationService.GetCountriesIterationByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get a specific countryIteration containing Countries filterd by alpha3Code.
+            Based on the CountryService
+            1- If CountryService is available return result
+            2- Else throw Exception.
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France.</param>
+            <returns>The countryIteration with the corresponding Alpha3Code Country if exists.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesIterationService.GetCountriesIterationByRegionAsync(System.String)">
+            <summary>
+            Get a specific countryIteration containing Countries filterd by Region.
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <param name="Id">ID is server given from GetCountriesIteration or String.empty for first iteration.</param>
+            <returns>A countryIteration with Country in the given Region and the next CountryIteration ID if exists.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.CountriesService">
+            <summary>
+            CountryModel Services Implementation
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesService.#ctor(HRCountriesServicesSolution.DAL.ICountriesRepository)">
+            <summary>
+            Dependancy injection by constructor.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.CountriesService.GetCountryByAlpha3CodeAsync(System.String)">
+            <summary>
+             Get CountryModel by alpha3Code
+            1- If repository is available, return repository Result
+            3- Else, return an Exception
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France</param>
+            <returns>CountryModel with alpha3Code null if does not exists</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.HRRegionsService">
+            <summary>
+            HRRegion Service Implementation.
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRRegionsService.#ctor(HRCountriesServicesSolution.DAL.IRegionsRepository)">
+            <summary>
+            Dependancy injection by constructor.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRRegionsService.GetRegionsAsync">
+            <summary>
+            Get all Regions available.
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <returns>All regions avaialble</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRRegionsService.GetRegionAsync(System.Int32)">
+            <summary>
+            Get a HRRegion by Id
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <param name="Id">ID of Region</param>
+            <returns>The corresponding Region if exists null otherwise</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.ICountriesIterationService">
+            <summary>
+            CountriesIteration Services Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ICountriesIterationService.GetCountrieIterationAsync(System.String)">
+            <summary>
+            Get a specific CountriesIteration.
+            </summary>
+            <param name="Id">ID is server given from GetCountriesIteration or String.empty for first iteration.</param>
+            <returns>A countriesIteration containing the next CountriesIteration ID if exists.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ICountriesIterationService.GetCountriesIterationByRegionAsync(System.String)">
+            <summary>
+            Get a specific countryIteration containing Countries filterd by Region.
+            </summary>
+            <param name="Id">ID is server given from GetCountriesIteration or String.empty for first iteration.</param>
+            <returns>A countryIteration with Country in the given Region and the next CountryIteration ID if exists.</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ICountriesIterationService.GetCountriesIterationByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get a specific countryIteration containing Countries filterd by alpha3Code.
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France.</param>
+            <returns>The countryIteration with the corresponding Alpha3Code Country if exists.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.ICountriesService">
+            <summary>
+             CountryModel Services Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ICountriesService.GetCountryByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get CountryModel by alpha3Code
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France</param>
+            <returns>CountryModel with alpha3Code null if does not exists</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IHRRegionsService">
+            <summary>
+            HRRegion Service Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IHRRegionsService.GetRegionsAsync">
+            <summary>
+            Get all Regions available
+            </summary>
+            <returns>All regions avaialble</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IHRRegionsService.GetRegionAsync(System.Int32)">
+            <summary>
+            Get a HRRegion by Id
+            </summary>
+            <param name="Id">ID of region</param>
+            <returns>The corresponding Region if exists null otherwise</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.BorderService">
+            <summary>
+            Border service Implementation
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.BorderService.#ctor(HRCountriesServicesSolution.DAL.IHRCountryBorderRepository)">
+            <summary>
+            Dependancy injection by constructor.
+            </summary>
+            <param name="rep"></param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.BorderService.GetBorderCountriesAsync">
+            <summary>
+            Get all Borders available.
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <returns>All Borders available</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.BorderService.GetBorderCountriesByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get Border by alpha3Code
+            1- If Repository is available return result
+            2- Else throw Exception.
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France.</param>
+            <returns>The HRCountryBorder with the corresponding Alpha3Code Country if exists.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IBorderService">
+            <summary>
+            Border service Interface
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IBorderService.GetBorderCountriesAsync">
+            <summary>
+            Get all Borders available
+            </summary>
+            <returns>All Borders available</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IBorderService.GetBorderCountriesByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get Border by alpha3Code
+            </summary>
+            <param name="alpha3Code">a Country Alpha3Code. e.g : 'FRA' foir France.</param>
+            <returns>The HRCountryBorder with the corresponding Alpha3Code Country if exists.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.HRGeonameRestClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRGeonameRestClient.#ctor(HRCountriesServicesSolution.Business.IRestClientProvider,HRCountriesServicesSolution.Business.IGeonameRestRequestGenerator,HRCountriesServicesSolution.Business.IGeonameRestResponseAnalyser)">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRGeonameRestClient.Execute">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.HRGeonameRestClient.Capital">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.HRGeonameRestClient.Country">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IRestClientProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IRestClientProvider.ConnectionURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IRestClientProvider.Login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IRestClientProvider.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IRestClientProvider.CreateRestClient">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.RestClientProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.RestClientProvider.ConnectionURL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.RestClientProvider.Login">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Business.RestClientProvider._password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.RestClientProvider.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.RestClientProvider.CreateRestClient">
+            <summary>
+            Instanciate new RestClient
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.HRWebCamsTravelRestClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRWebCamsTravelRestClient.#ctor(HRCountriesServicesSolution.Business.IWebCamsTravelRestRequestGenerator,HRCountriesServicesSolution.Business.IWebCamsTravelRestResponseAnalyser,HRCountriesServicesSolution.Business.IRestClientProvider)">
+            <summary>
+            
+            </summary>
+            <param name="restRequestGenerator"></param>
+            <param name="restResponseAnalyser"></param>
+            <param name="clientProvider"></param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.HRWebCamsTravelRestClient.ExecuteBestWebCam">
+            <summary>
+            Get the nearest bests webcams at given lat lon.
+            Return null if data can not be found.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.HRWebCamsTravelRestClient.Lat">
+            <summary>
+            Latitude to look for the best Webcam
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.HRWebCamsTravelRestClient.Lon">
+            <summary>
+            Longitude to look for the best Webcam
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IHRGeonameRestClient">
+            <summary>
+            Encapsulated RestClient form RestSharp for specific HRGeoNameRootObject
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IHRGeonameRestClient.Execute">
+            <summary>
+            Get the corresponding request's Geonames.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IHRGeonameRestClient.Capital">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IHRGeonameRestClient.Country">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IHRWebCamsTravelRestClient">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IHRWebCamsTravelRestClient.ExecuteBestWebCam">
+            <summary>
+            Get the nearest bests webcams at given lat lon.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IHRWebCamsTravelRestClient.Lat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Business.IHRWebCamsTravelRestClient.Lon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.ServiceErrorGenerator`1">
+            <summary>
+            Fill up a T object with Error data for Rest Response.
+            No unit test as implementation is trivial
+            </summary>
+            <typeparam name="T">a IErrorDescriptionAbility and newable object</typeparam>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ServiceErrorGenerator`1.GenerateErrors(System.String)">
+            <summary>
+            Get error response object as a list.
+            </summary>
+            <param name="message">Content of the error message</param>
+            <returns>Error response object as a list</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.ServiceErrorGenerator`1.GenerateError(System.String)">
+            <summary>
+            Get error response object with message given.
+            </summary>
+            <param name="message">Content of the error message</param>
+            <returns>Error response object</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IWebCamsTravelRestRequestGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IWebCamsTravelRestRequestGenerator.Generate(System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="lat"></param>
+            <param name="lon"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IWebCamsTravelRestResponseAnalyser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IWebCamsTravelRestResponseAnalyser.GetBestFittingWebCam(System.Collections.Generic.List{HRCountriesServicesSolution.Models.Webcam})">
+            <summary>
+            
+            </summary>
+            <param name="webcams"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.IWebCamsTravelService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.IWebCamsTravelService.GetBestWebCam(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="country"></param>
+            <param name="capital"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.WebCamsTravelRestRequestGenerator">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.WebCamsTravelRestRequestGenerator.Generate(System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="lat"></param>
+            <param name="lon"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.WebCamsTravelRestResponseAnalyser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.WebCamsTravelRestResponseAnalyser.GetBestFittingWebCam(System.Collections.Generic.List{HRCountriesServicesSolution.Models.Webcam})">
+            <summary>
+            Get the Webcam available with lifetime and embeded on
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Business.WebCamsTravelService">
+            <summary>
+            Service to get the best WebCam for a specific town in a given country.
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.WebCamsTravelService.#ctor(HRCountriesServicesSolution.Business.IHRGeonameRestClient,HRCountriesServicesSolution.Business.IHRWebCamsTravelRestClient)">
+            <summary>
+            Constructor for dependancy injection
+            </summary>
+            <param name="geoNameClient"></param>
+            <param name="webCamRestClient"></param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Business.WebCamsTravelService.GetBestWebCam(System.String,System.String)">
+            <summary>
+            Get the 5 best Webcams for the given Capital in the given Country
+            1- Get the Lat lon of capital via GeoName Service
+            2- If Lat Lon is retrieved, Get the Player from Lat Lon capital.
+            3- Else, return null
+            4- Throw Exception if internal initialisation failed.
+            </summary>
+            <param name="country"></param>
+            <param name="capital"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.WEBCONFIG">
+            <summary>
+            All centralized contants
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCONFIG.WEBCAMSTRAVEL_LOGIN_KEY">
+            <summary>
+            Cle webConfig webcamsTravelLogin
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCONFIG.WEBCAMSTRAVEL_PWD_KEY">
+            <summary>
+            Cle webConfig WEBCAMSTRAVEL_PWD_KEY
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCONFIG.WEBCAMSTRAVEL_URL_KEY">
+            <summary>
+            Cle webConfig WEBCAMSTRAVEL_URL_KEY
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCONFIG.GEONAME_SEARCHJSON_URL_KEY">
+            <summary>
+            Cle webConfig GEONAME_SEARCHJSON_URL_KEY
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCONFIG.GEONAME_KEY">
+            <summary>
+            Cle webConfig GEONAME KY
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.REGION_STUB">
+            <summary>
+            Constants used by Region stub (available on azure deployment)
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.AFRICA_REGION">
+            <summary>
+            Africa Region
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.AMERICAS_REGION">
+            <summary>
+            Americas Region
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.ASIA_REGION">
+            <summary>
+            Asia Region
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.EUROPE_REGION">
+            <summary>
+            Europe Region
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.OCEANIA_REGION">
+            <summary>
+            Oceania Region
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION_STUB.POLAR_REGION">
+            <summary>
+            Polar Region
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.BOUNDARIES_STUB">
+            <summary>
+            Stub constants of json Boundaries
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.BOUNDARIES_STUB.ISO3_PROPERTIE_NAME">
+            <summary>
+            Name of alpha3Code properties in Boundaries Stub
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.BOUNDARIES_STUB.NO_DATA_ERROR_MESSAGE">
+            <summary>
+            Error message when boundaries repository contains no data
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.COUNTRIESITERATION_STUB">
+            <summary>
+            Stub constants of json Countries Iteration
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIESITERATION_STUB.COUNTRIES_JSON_URL">
+            <summary>
+            AllCountries json URL
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIESITERATION_STUB.BOUNDARIES_JSON_URL">
+            <summary>
+            Boundaries json URL
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.COUNTRIESITERATION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIESITERATION.COUNTRIESITERATION_REPOSITORY_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIESITERATION.COUNTRIESITERATION_SERVICE_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.BOUNDARIES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.BOUNDARIES.BORDER_REPOSITORY_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.BOUNDARIES.BORDER_SERVICE_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.COUNTRIES">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIES.COUNTRIES_REPOSITORY_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.COUNTRIES.COUNTRIES_SERVICE_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.GEONAME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.GEONAME.PLACENAME_PARAMETER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.GEONAME.USERNAME_PARAMETER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.GEONAME.COUNTRY_PARAMETER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.GEONAME.REST_CLIENT_NOT_INITIALIZED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.REGION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION.REGION_REPOSITORY_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.REGION.REGION_SERVICE_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.LIMIT_KEY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.OFFSET_KEY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.LAT_KEY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.LON_KEY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.X_MASHAPE_KEY">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.ACTIVE_STATUS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.INITIALISATION_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HRCountriesServicesSolution.Constant.WEBCAMTRAVEL.WEBCAMS_TRAVEL_SERVICE_ERROR_DESCRIPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.ITextContentGetter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ITextContentGetter.GetCountriesData">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ITextContentGetter.GetBoundariesData">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.LocalJSONDataGetter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.LocalJSONDataGetter.GetCountriesData">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.LocalJSONDataGetter.GetBoundariesData">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.BufferedCountriesIterationRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesIterationRepository.#ctor(HRCountriesServicesSolution.DAL.ITextContentGetter)">
+            <summary>
+            Implementation of a local buffer of CountriesIteration.
+            This class is used to enable a free deployment on Azure as accessing Azure DB is too expensive for only test reasons.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesIterationRepository.GetCountrieIterationAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesIterationRepository.GetCountriesIterationByRegionAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.BufferedCountriesRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesRepository.#ctor(HRCountriesServicesSolution.DAL.ITextContentGetter)">
+            <summary>
+            default dummy constructor.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesRepository.GetCountriesAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferedCountriesRepository.GetCountryByAlpha3CodeAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="alpha3Code"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.ICountriesIterationRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ICountriesIterationRepository.GetCountrieIterationAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ICountriesIterationRepository.GetCountriesIterationByRegionAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.ICountriesRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ICountriesRepository.GetCountryByAlpha3CodeAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="alpha3Code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.ICountriesRepository.GetCountriesAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.IRegionsRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.IRegionsRepository.GetRegionsAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.IRegionsRepository.GetRegionAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.BufferisedRegionsRepository">
+            <summary>
+            Implementation of a local buffer of Regions.
+            This class is used to enable a free deployment on Azure as accessing Azure DB is too expensive for only test reasons.
+            This class is non unitary tested as it is a trivial implementation.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedRegionsRepository.GetRegionsAsync">
+            <summary>
+            Faked async method on stubbeed data.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedRegionsRepository.GetRegionAsync(System.Int32)">
+            <summary>
+            Faked async method on stubbeed data.
+            </summary>
+            <param name="Id">Internal ID if a region</param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedRegionsRepository.InitAsync">
+            <summary>
+            Stubbed Data for Azure deployment.
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.BufferisedHRCountryBorderRepository">
+            <summary>
+            A buffer class to contain data loaded from a local json file.
+            Used to avoid database access on an azure env.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedHRCountryBorderRepository.#ctor(HRCountriesServicesSolution.DAL.ITextContentGetter)">
+            <summary>
+            Constructor for dependancy injection
+            </summary>
+            <param name="contentGetter"></param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedHRCountryBorderRepository.InitAsync">
+            <summary>
+            1- If Buffer is null
+            1.1- Asynchronous Load of jsonData file
+            1.2- ForEach Feature retrieved, add a new HRCountryBorder with ISO3/alpha3Code and Features/OgcFeature
+            2- Else retrun true
+            Does not catch any Exception and throw one if data can not be reached.
+            </summary>
+            <returns>true or throw an exception if data can not be loaded</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedHRCountryBorderRepository.GetBorderCountriesAsync">
+            <summary>
+            1- Init buffer
+            2- Return initialized buffer if not null else throw Exception.
+            Does not catch any Exception
+            </summary>
+            <returns>All HRBorderCountry available</returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.BufferisedHRCountryBorderRepository.GetBorderCountriesByAlpha3CodeAsync(System.String)">
+            <summary>
+            Get a HRBorderCountry from its alpha3Code.
+            1- Init Buffer
+            2- Iterate in buffer to get the alpha3Code
+            Does not catch any Exception and throw one if _countriesBorderBuffer is null.
+            </summary>
+            <param name="alpha3Code">Country alpha3Code</param>
+            <returns>The HRCounrtyBorder if exists or null.</returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DAL.IHRCountryBorderRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.IHRCountryBorderRepository.GetBorderCountriesAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DAL.IHRCountryBorderRepository.GetBorderCountriesByAlpha3CodeAsync(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="alpha3Code"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.IErrorDescriptionAbility">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.IErrorDescriptionAbility.errorDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.AddExternalLoginBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.AddExternalLoginBindingModel.ExternalAccessToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.ChangePasswordBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ChangePasswordBindingModel.OldPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ChangePasswordBindingModel.NewPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ChangePasswordBindingModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.RegisterBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegisterBindingModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegisterBindingModel.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegisterBindingModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.RegisterExternalBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegisterExternalBindingModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.RemoveLoginBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RemoveLoginBindingModel.LoginProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RemoveLoginBindingModel.ProviderKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.SetPasswordBindingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.SetPasswordBindingModel.NewPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.SetPasswordBindingModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.ExternalLoginViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ExternalLoginViewModel.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ExternalLoginViewModel.Url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ExternalLoginViewModel.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.ManageInfoViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ManageInfoViewModel.LocalLoginProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ManageInfoViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ManageInfoViewModel.Logins">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.ManageInfoViewModel.ExternalLoginProviders">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.UserInfoViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.UserInfoViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.UserInfoViewModel.HasRegistered">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.UserInfoViewModel.LoginProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.UserLoginInfoViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.UserLoginInfoViewModel.LoginProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.UserLoginInfoViewModel.ProviderKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.CountriesIteration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountriesIteration.countries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountriesIteration.iterationKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountriesIteration.finalItemsCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountriesIteration.errorDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Currency">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Currency.code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Currency.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Currency.symbol">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Language">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Language.iso639_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Language.iso639_2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Language.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Language.nativeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Translations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.de">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.es">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.fr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.ja">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.it">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.br">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.pt">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.nl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Translations.hr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.RegionalBloc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegionalBloc.acronym">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegionalBloc.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegionalBloc.otherAcronyms">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.RegionalBloc.otherNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.CountryModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.topLevelDomain">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.alpha2Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.alpha3Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.callingCodes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.capital">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.altSpellings">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.subregion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.population">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.latlng">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.demonym">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.area">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.gini">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.timezones">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.borders">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.nativeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.numericCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.currencies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.languages">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.translations">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.flag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.regionalBlocs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.CountryModel.detailFrame">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.PopulationModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.HRRegion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRRegion.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRRegion.region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRRegion.errorDescription">
+            <summary>
+            Used by Service if an error occured while retrieving or setting a HRRegion
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.HRCountryBorder">
+            <summary>
+            Model for embedding OGCFeature with Alpha3Code
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRCountryBorder.alpha3Code">
+            <summary>
+            For details on ISO3166 Alpha3Code check : https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3 for more details.
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRCountryBorder.errorDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRCountryBorder.oGCFeature">
+            <summary>
+            OpenGis Feature As Json String. check http://www.opengeospatial.org/standards/sfa for more details. 
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Geoname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.adminCode1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.lng">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.geonameId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.toponymName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.countryId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.fcl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.population">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.countryCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.fclName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.countryName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.fcodeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.adminName1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.lat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Geoname.fcode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.HRGeoNameRootObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRGeoNameRootObject.totalResultsCount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.HRGeoNameRootObject.geonames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Current">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Current.icon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Current.thumbnail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Current.preview">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Current.toenail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Day">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Day.available">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Day.link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Day.embed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Daylight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Daylight.icon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Daylight.thumbnail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Daylight.preview">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Daylight.toenail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Icon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Icon.width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Icon.height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Image.current">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Image.daylight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Image.sizes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Image.update">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Lifetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Lifetime.available">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Lifetime.link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Lifetime.embed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Live">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Live.available">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Live.embed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Location">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.city">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.region">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.region_code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.country">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.country_code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.continent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.continent_code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.latitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.longitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Location.timezone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Month">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Month.available">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Month.link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Month.embed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Player">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Player.live">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Player.day">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Player.month">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Player.year">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Player.lifetime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Preview">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Preview.width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Preview.height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.WebCamsTravelRootObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.WebCamsTravelRootObject.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.WebCamsTravelRootObject.result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.WebCamsTravelRootObject.errorDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Sizes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Sizes.icon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Sizes.thumbnail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Sizes.preview">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Sizes.toenail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Thumbnail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Thumbnail.width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Thumbnail.height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Toenail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Toenail.width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Toenail.height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Webcam">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.location">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Webcam.player">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Result.offset">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Result.limit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Result.total">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Result.webcams">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Models.Year">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Year.available">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Year.link">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.Models.Year.embed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.Controllers.HomeController.Index">
+            <summary>
+            Simple HomePagecontroller. No dependancy to inject.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.DefaultRegistry">
+            <summary>
+            Factory permettant de faire l'Injection de dépedance.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.DefaultRegistry.#ctor">
+            <summary>
+            La factory nécessaire pour faire l'injection de dépendance.
+            </summary>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.IoC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.IoC.Initialize">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope">
+            <summary>
+            The structure map dependency scope.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.#ctor(StructureMap.IContainer)">
+            <summary>
+            
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="P:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.Container">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.CurrentNestedContainer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.CreateNestedContainer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.DisposeNestedContainer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.GetServices(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.DoGetAllInstances(System.Type)">
+            <summary>
+            
+            </summary>
+            <param name="serviceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapDependencyScope.DoGetInstance(System.Type,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="serviceType"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.StructureMapScopeModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapScopeModule.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapScopeModule.Init(System.Web.HttpApplication)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyResolver">
+            <summary>
+            The structure map dependency resolver.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyResolver.#ctor(StructureMap.IContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyResolver"/> class.
+            </summary>
+            <param name="container">
+            The container.
+            </param>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyResolver.BeginScope">
+            <summary>
+            The begin scope.
+            </summary>
+            <returns>
+            The System.Web.Http.Dependencies.IDependencyScope.
+            </returns>
+        </member>
+        <member name="T:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyScope">
+            <summary>
+            The structure map web api dependency scope.
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.DependencyResolution.StructureMapWebApiDependencyScope.#ctor(StructureMap.IContainer)">
+            <summary>
+            
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="T:HRCountriesServicesSolution.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HRCountriesServicesSolution.WebApiApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HRWebServices.Controllers.HRCountriesIterationsController">
+            <summary>
+            Provide a Rest service for resource CountriesIteration
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountriesIterationsController.#ctor(HRCountriesServicesSolution.Business.ICountriesIterationService)">
+            <summary>
+            Constructor dependancy injection
+            </summary>
+            <param name="countryIterationService"></param>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountriesIterationsController.Alpha3Code(System.String)">
+            <summary>
+            Get CountrieIteration for a specific ALPHA3CODE.
+            1- If _countriesIterationService is available, return service Result
+            2- If _countriesIterationService throw an exception, return a CountriesIteration with the resulting error.
+            3- Else, return a CountriesIteration with unavailability Error.
+            </summary>
+            <param name="alpha3Code">ISO3166 CountryCode. MaxLength = 3. Can be null</param>
+            <returns>CountriesIteration</returns>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountriesIterationsController.Region(System.String)">
+            <summary>
+            Get a CountriesIteration for a specific Region
+            1- If _countriesIterationService is available, return service Result
+            2- If _countriesIterationService throw an exception, return a CountriesIteration with the resulting error.
+            3- Else, return a CountriesIteration with unavailability Error.
+            </summary>
+            <param name="id">String without constraint</param>
+            <returns>If id can not be retrieved, return {countries:[], finalItemsCount:0, iterationKey:''} </returns>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountriesIterationsController.Get(System.String)">
+            <summary>
+            Provide CountriesIteration for a specific iteration Id
+            1- If _countriesIterationService is available, return service Result. If Id is null return the first iteration, else return the expected iteration with id.
+            2- If _countriesIterationService throw an exception, return a CountriesIteration with the resulting error.
+            3- Else, return a CountriesIteration with unavailability Error.
+            Note This service is asynchronous in backend. A specific delay of 2 seconds can be added for test purpose.
+            </summary>
+            <param name="id">String without constraint. Give a null parameter for the first iteration. BackEnd will generate the folllowing iteration sequence in the response body.</param>
+            <returns>If id can not be retrieved, return {countries:[], finalItemsCount:0, iterationKey:''} </returns>
+        </member>
+        <member name="T:HRWebServices.Controllers.HRCountryBorderController">
+            <summary>
+            Provide a Rest service for resource HRCountryBorder containing OGCFeature of a country (Check : http://www.opengeospatial.org/standards/sfa for more details)
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountryBorderController.#ctor(HRCountriesServicesSolution.Business.IBorderService)">
+            <summary>
+            Constructeur pour injection de dépendance.
+            </summary>
+            <param name="borderService"></param>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountryBorderController.GetAsync">
+            <summary>
+            Retrieve all Known Features.
+            1- If _borderService is available, return the resulting service result
+            2- If _borderService throw an Exception, return a HRCountryBorder with an errorDescription of the Exception
+            3- Else return a HRCountryBorder with an errorDescription indicating that service is not available.
+            </summary>
+            <returns>List Of all Know Country Features by Alpha3 Code</returns>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRCountryBorderController.byAlpha3Code(System.String)">
+            <summary>
+            Retrieve a Country Feature by his specific Alpha3Code.
+            1- If _borderService is available, return the resulting service result
+            2- If _borderService throw an Exception, return a HRCountryBorder with an errorDescription of the Exception
+            3- Else return a HRCountryBorder with an errorDescription indicating that service is not available.
+            </summary>
+            <param name="alpha3Code">String MinLength = 3 and MaxLength = 3.
+            For details on ISO3166 Alpha3Code check : https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3 </param>
+            <returns>The CountryFeature with his Alpha3Code.
+            Return {"alpha3Code":null,"oGCFeature":null} if Alpha3Code can not be found.
+            </returns>
+        </member>
+        <member name="T:HRWebServices.Controllers.HRRegionController">
+            <summary>
+            Provide Rest Service for resource HRRegion
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRRegionController.#ctor(HRCountriesServicesSolution.Business.IHRRegionsService)">
+            <summary>
+            Constructor for dependancy injection
+            </summary>
+            <param name="regionService">injected by StructureMap</param>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRRegionController.Get">
+            <summary>
+            Get all HRRegions available.
+            1- If regionService is available, return the resulting service
+            2- If regionService is unavailable return a IEnumerable"HRRegion" Fill with a HRRegion Error
+            3- If any Exception is catch, return a IEnumerable"HRRegion" Fill with a HRRegion Error describing the Exception.
+            </summary>
+            <returns>List of HRRegion</returns>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRRegionController.Get(System.Int32)">
+            <summary>
+            Get HRRegion by Id
+            1- If regionService is available, return the resulting REgion or all regions if Id do not correspond with any existing ID
+            2- If regionService  throw an Error, return a HRRegion Filled with an ErrorDescription of the Exception.
+            3- Else if _regionService is unavailable return a HRRegion Fill an ErrorDescription
+            </summary>
+            <param name="id">a int value between 1 and 6</param>
+            <returns>HRRegion</returns>
+        </member>
+        <member name="T:HRWebServices.Controllers.HRWebCamsTravelController">
+            <summary>
+            Provide Rest Service for resource WebCamsTravelRootObject
+            No unit test as implementation is trivial
+            </summary>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRWebCamsTravelController.#ctor(HRCountriesServicesSolution.Business.IWebCamsTravelService)">
+            <summary>
+            Constructeur pour injection de dépendance.
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:HRWebServices.Controllers.HRWebCamsTravelController.Get(System.String,System.String)">
+            <summary>
+            Retrieve the best popular WebCam of LifeTime type for a town of a given country.
+            This provider is directly connected to webcamstravel service available on p.mashape.com.
+            Coming soon, a specific version on Database supported by MongoDB.
+            1- If webCamService is available, return the resulting service
+            2- If webCamService  throw an Error, return a WebCamsTravelRootObject Filled with an ErrorDescription of the Exception.
+            3- Else if webCamService is unavailable return a WebCamsTravelRootObject Fill an ErrorDescription
+            </summary>
+            <param name="country">Country ALPHA3Code. MinLength = MaxLength = 3</param>
+            <param name="capital">a Town name of the given Country.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
